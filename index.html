@@ -71,8 +71,130 @@
         </div>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <form action=""></form>
-            <button data-modal-close></button>
+            <form action="" class="form" autocomplete="off">
+              <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+
+              <div class="form-field">
+                <input
+                  id="person"
+                  type="text"
+                  class="modal-input"
+                  name="data-contacts"
+                  placeholder=" "
+                />
+                <label for="person" class="form-label"> Имя</label>
+                <svg class="icon-modal" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-person"></use>
+                </svg>
+              </div>
+              <div class="form-field">
+                <input
+                  id="phone"
+                  type="text"
+                  class="modal-input"
+                  name="data-contacts"
+                  placeholder=" "
+                />
+                <label for="phone" class="form-label"> Телефон</label>
+                <svg class="icon-modal" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-phone-black"></use>
+                </svg>
+              </div>
+              <div class="form-field">
+                <input
+                  id="email"
+                  type="text"
+                  class="modal-input tel"
+                  name="data-contacts"
+                  placeholder=" "
+                />
+                <label for="email" class="form-label"> Почта</label>
+                <svg class="icon-modal" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-email-black"></use>
+                </svg>
+              </div>
+              <div class="form-field">
+                <input
+                  id="coment"
+                  type="textarea"
+                  class="modal-input coment"
+                  name="data-contacts"
+                  placeholder=" "
+                />
+                <label for="coment" class="form-label coment">
+                  Комментарий</label
+                >
+              </div>
+              <div class="terms-field">
+                <label class="label-checkbox">
+                  <input
+                    type="checkbox"
+                    name="checkbox"
+                    checked
+                    class="input-checkbox"
+                  />
+
+                  Соглашаюсь с рассылкой и принимаю
+                  <a href="#" class="link terms"> Условия договора</a>
+                </label>
+              </div>
+              <button type="submit" class="button-submit">Отправить</button>
+
+              <!-- <input
+                id="terms"
+                type="checkbox"
+                class="terms-input"
+                name="data-contacts"
+                placeholder=" "
+              />
+              <label for="terms" class="terms-label">
+                Соглашаюсь с рассылкой и принимаю
+                <a href="#" class="link terms">Условия договора</a></label
+              > -->
+
+              <!-- <div class="form-field">
+                <label>
+                  <input type="tel" class="modal-input" name="data-contacts" />
+                  Телефон
+                </label>
+              </div>
+              <div class="form-field">
+                <label>
+                  <input
+                    type="email"
+                    class="modal-input"
+                    name="data-contacts"
+                  />
+                  Почта
+                </label>
+              </div>
+              <div class="form-field">
+                <label>
+                  <input
+                    type="textarea"
+                    class="modal-input"
+                    name="data-contacts"
+                  />
+                  Комментарий
+                </label>
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  <input
+                    type="checkbox"
+                    class="modal-input"
+                    name="data-contacts"
+                  />
+                  Соглашаюсь с рассылкой и принимаю
+                  <a href="#" class="link terms">Условия договора</a>
+                </label>
+              </div> -->
+            </form>
+            <button data-modal-close class="modal-btn">
+              <svg class="icon-close" width="18" height="18">
+                <use href="./images/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </section>
