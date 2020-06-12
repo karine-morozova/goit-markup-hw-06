@@ -65,8 +65,15 @@
             эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="hero-button">Заказать услугу</button>
-          <!-- <a href="#" class="hero-button">Заказать услугу</a> -->
+          <button type="button" class="hero-button" data-modal-open>
+            Заказать услугу
+          </button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <form action=""></form>
+            <button data-modal-close></button>
+          </div>
         </div>
       </section>
       <!--Наши преимущества-->
@@ -470,5 +477,6 @@
       </div>
       <p class="copyright container">2020 | Developed by GoIT Students</p>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
