@@ -136,14 +136,14 @@ border-radius: 2px;
 .envelope {
     
    margin-right: 10px;
-    --color2: --var(--primary-text-color);
+    color: --var(--primary-text-color);
 }
-.envelope:hover, .envelope:focus {
+ .envelope:hover, .envelope:focus {
     fill: currentColor;
-}
+}  
 .phone {
     margin-right: 10px;
-    --color4: --var(--primary-text-color);
+    fill: --var(--primary-text-color);
 }
  .phone:hover, .phone:focus {
     fill: currentColor;
